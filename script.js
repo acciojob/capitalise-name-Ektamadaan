@@ -5,4 +5,7 @@ function UpperCaseOnBlur() {
 		input1.value = input1.value.toUpperCase();
 	})
 }
+document.addEventListener('DOMContentLoaded' , function(){
+	UpperCaseOnBlur();
+})
 
